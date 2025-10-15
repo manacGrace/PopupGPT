@@ -1,0 +1,78 @@
+:root {
+    --shadow-primary: rgba(0, 0, 0, 0.2);
+    --shadow-secondary: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    min-width: 550px;
+}
+
+/*ALL TEXTAREAS*/
+textarea {
+
+    /*HEIGHT*/
+    height: 3.5rem;
+    max-height: 20rem;
+
+    /*SCROLLBAR*/
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+}
+
+/*PROMPT TEXTAREA*/
+#inputSection {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+#highlighted, #instruction {
+    /*WIDTH*/
+    min-width: 25rem;
+    width: 25rem;
+
+    /*MARGIN*/
+    margin-bottom: 1rem;
+
+    /*SHADOW*/
+    box-shadow: 0 2px 6px var(--shadow-primary)
+}
+
+/*GPT PRE RESPONSE*/
+#responseSection {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#response {
+    height: 7rem;
+    max-width: 80rem;
+    max-height: 120rem;
+    min-width: 530px;
+}
+
+/*ALL BUTTONS*/
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2.5rem;
+    transition: transform 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+
+button:hover {
+    color: rgb(207, 207, 207);
+}
+
+/*SETTINGS BUTTON*/
+#settings:hover {
+    transform: rotate(30deg);
+}
+
+/*SEND BUTTON*/
+#send:hover {
+    transform:translateY(3px);
+}

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "name": "PopupGPT",
+  "version": "1.0.0",
+  "description": "Ask GPT anything or correct your highlighted writing from a popup!",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/*"
+  ],
+  "action": {
+    "default_popup": "src/pages/index.html",
+    "default_icon": {
+      "16": "src/assets/icon.png"
+    }
+  },
+  "settings_page": "src/pages/settings.html",
+  "icons": {
+    "16": "src/assets/icon.png",
+    "48": "src/assets/icon.png",
+    "128": "src/assets/icon.png"
+  }
+}

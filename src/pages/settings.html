@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PopupGPT</title>
+
+    <!-- icons -->
+    <link rel="icon" type="image/png" href="../assets/icon.png">
+    <link rel="shortcut icon" type="image/png" href="../assets/icon.png">
+    <link rel="apple-touch-icon" href="../assets/icon.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/settings.css" />
+
+    <!-- Tailwind-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.13/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Boxicons -->
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen flex items-center justify-center">
+    <h3>Settings</h3>
+    <textarea id="key" placeholder="Paste your text..."></textarea>
+    <button id="send">Correct</button>
+    <textarea readonly id="tokensUsed" placeholder="Tokens used"></textarea>
+    <textarea readonly id="tokensRemaining" placeholder="Tokens remaining"></textarea>
+    <pre id="response"></pre>
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>

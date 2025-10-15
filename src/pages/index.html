@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PopupGPT</title>
+
+    <!-- icons -->
+    <link rel="icon" type="image/png" href="../assets/icon.png" />
+    <link rel="shortcut icon" type="image/png" href="../assets/icon.png" />
+    <link rel="apple-touch-icon" href="../assets/icon.png" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/tailwind.css" />
+
+    <!-- Boxicons -->
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-neutral-800 text-white p-6 space-y-3">
+    <div>
+      <button id="settings" class="button">
+        <i class="bx bxs-cog"></i>
+      </button>
+      <h3 class="text-lg font-bold">PopupGPT</h3>
+      <p>Extension by @manacGrace on GitHub</p>
+    </div>
+
+    <div id="inputSection">
+      <textarea
+        id="highlighted"
+        placeholder="This is your highlighted text"
+        class="bg-zinc-700 w-full h-fit p-4 rounded-3xl text-white text-left"
+      ></textarea>
+
+      <textarea
+        id="instruction"
+        placeholder="Correct this text..."
+        class="bg-zinc-700 w-full p-4 rounded-3xl text-white text-left"
+      ></textarea>
+
+      <button id="send">
+        <i class="bxr bxs-arrow-up-circle"></i>
+      </button>
+    </div>
+
+    <div id="responseSection">
+      <textarea
+        readonly
+        id="response"
+        class="bg-neutral-900 w-full p-4 rounded-3xl text-white text-left"
+      >
+Response from ChatGPT will appear here...</textarea
+      >
+    </div>
+
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>
