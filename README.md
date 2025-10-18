@@ -4,7 +4,7 @@
 
 **A powerful browser extension that brings ChatGPT's writing assistance directly to your popup!**
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-brightgreen?style=for-the-badge&logo=google-chrome)](https://chrome.google.com/webstore)
+[![Chrome Web Store](https://img.shields.io/badge/Chromium-Extension-brightgreen?style=for-the-badge&logo=google-chrome)](https://chrome.google.com/webstore)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/manacGrace/PopupGPT?style=for-the-badge&logo=github)](https://github.com/manacGrace/PopupGPT)
 
