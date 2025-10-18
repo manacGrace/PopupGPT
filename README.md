@@ -23,13 +23,12 @@
 
 ---
 
-## Screenshots
+## Video Demonstration
 
 <div align="center">
 
-![PopupGPT Demo](src/assets/demo.png)
-
-*Clean, modern interface with loading animations*
+[▶️ Watch demo](https://github.com/manacGrace/PopupGPT/tree/main/src/assets/PopGPT-Demo.mp4)
+<!-- ![PopupGPT Demo](src/assets/demo.png) -->
 
 </div>
 
