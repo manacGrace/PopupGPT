@@ -38,7 +38,7 @@
 ### 1. Install the Extension
 
 1. Download or clone this repository
-2. Open Chrome and go to `chrome://extensions/`
+2. Open your Chromium-based browser and go to `browser://extensions/`
 3. Enable "Developer mode" in the top right
 4. Click "Load unpacked" and select the PopupGPT folder
 
