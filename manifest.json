@@ -5,7 +5,7 @@
   },
   "name": "PopupGPT",
   "version": "1.0.0",
-  "description": "Ask GPT anything or correct your highlighted writing from a popup!",
+  "description": "A web extention where you can ask ChatGPT to correct your writing from a popup!",
   "permissions": [
     "storage",
     "activeTab",

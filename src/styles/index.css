@@ -16,7 +16,7 @@ textarea {
 
     /*SCROLLBAR*/
     scrollbar-width: none;
-    scrollbar-color: transparent transparent;
+    scrollbar-color: transparent;
 }
 
 /*PROMPT TEXTAREA*/
@@ -26,7 +26,8 @@ textarea {
     flex-direction: column;
 }
 
-#highlighted, #instruction {
+#highlighted,
+#instruction {
     /*WIDTH*/
     min-width: 25rem;
     width: 25rem;
@@ -35,7 +36,19 @@ textarea {
     margin-bottom: 1rem;
 
     /*SHADOW*/
-    box-shadow: 0 2px 6px var(--shadow-primary)
+    box-shadow: 0 2px 6px var(--shadow-primary);
+}
+
+/*SETTINGS API KEY TEXTAREA*/
+#apiKey {
+    /*HEIGHT*/
+    height: fit-content;
+
+    /*SHADOW*/
+    box-shadow: 0 2px 6px var(--shadow-primary);
+
+    /*PADDING*/
+    padding-bottom: 2rem;
 }
 
 /*GPT PRE RESPONSE*/
@@ -48,10 +61,25 @@ textarea {
 }
 
 #response {
-    height: 7rem;
+    /*WIDTH*/
     max-width: 80rem;
-    max-height: 120rem;
-    min-width: 530px;
+
+    /*HEIGHT*/
+    height: fit-content;
+    min-height: 3.5rem;
+    max-height: 20rem;
+
+    /*PADDING*/
+
+    /*SCROLLBAR*/
+    scrollbar-width: none;
+    scrollbar-color: transparent;
+    overflow-y: auto;
+}
+
+/* Hide scrollbar for webkit browsers */
+#response::-webkit-scrollbar {
+    display: none;
 }
 
 /*ALL BUTTONS*/
@@ -74,5 +102,50 @@ button:hover {
 
 /*SEND BUTTON*/
 #send:hover {
-    transform:translateY(3px);
+    transform: translateY(-5px);
+}
+
+/*SAVE KEY BUTTON CONTAINER*/
+#saveButtonContainer {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+/*SAVE KEY BUTTON*/
+#saveKey:hover {
+    transform: translateY(-5px);
+}
+
+/*LOADING ANIMATION*/
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top: 2px solid #ffffff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.loading-text {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

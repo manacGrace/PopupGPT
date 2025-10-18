@@ -24,7 +24,6 @@
       rel="stylesheet"
     />
   </head>
-
   <body class="bg-neutral-800 text-white p-6 space-y-3">
     <div>
       <button id="settings" class="button">
@@ -43,7 +42,7 @@
 
       <textarea
         id="instruction"
-        placeholder="Correct this text..."
+        placeholder="Write your instructions here (optional)"
         class="bg-zinc-700 w-full p-4 rounded-3xl text-white text-left"
       ></textarea>
 
@@ -53,15 +52,16 @@
     </div>
 
     <div id="responseSection">
-      <textarea
-        readonly
+      <div
         id="response"
-        class="bg-neutral-900 w-full p-4 rounded-3xl text-white text-left"
+        class="bg-neutral-900 w-full p-4 rounded-3xl text-white text-left response-container"
+        style="min-height: 3.5rem; max-height: 20rem; overflow-y: auto"
       >
-Response from ChatGPT will appear here...</textarea
-      >
+        Response from ChatGPT will appear here...
+      </div>
     </div>
 
-    <script src="../scripts/index.js"></script>
+    <script type="module" src="../scripts/index.js"></script>
+    <script src="../utils/changePage.js"></script>
   </body>
 </html>
