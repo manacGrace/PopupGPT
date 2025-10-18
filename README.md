@@ -27,7 +27,7 @@
 
 <div align="center">
 
-[▶️ Watch demo](https://github.com/manacGrace/PopupGPT/tree/main/src/assets/PopGPT-Demo.mp4)
+[▶️ Watch demo](src/assets/PopGPT-Demo.gif)
 <!-- ![PopupGPT Demo](src/assets/demo.png) -->
 
 </div>
