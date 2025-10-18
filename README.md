@@ -27,8 +27,7 @@
 
 <div align="center">
 
-[▶️ Watch demo](src/assets/PopGPT-Demo.gif)
-<!-- ![PopupGPT Demo](src/assets/demo.png) -->
+![PopupGPT video demo](src/assets/PopGPT-Demo.gif)
 
 </div>
 
@@ -46,11 +45,13 @@
 ### 2. Get Your Free OpenAI API Key
 
 #### Step 1: Create OpenAI Account
+
 - Visit [OpenAI's API Platform](https://platform.openai.com/)
 - Sign in or create a new account
 - Set up an organization
 
 #### Step 2: Skip Billing Setup (Important!)
+
 As an organization, you get **$5 in free credits**, enough to correct approximately **3,700 full 2000-word texts**, using GPT-4o-mini!
 
 <div align="center">
@@ -61,12 +62,14 @@ As an organization, you get **$5 in free credits**, enough to correct approximat
 </div>
 
 #### Step 3: Create API Key
+
 - Go to [API Keys page](https://platform.openai.com/api-keys)
 - Click **"Create new secret key"**
 - Name it something descriptive (e.g., "PopupGPT")
 - **Copy the key immediately** - you won't see it again!
 
 #### Step 4: Configure Extension
+
 - Click the ⚙️ settings icon in the popup
 - Paste your API key in the options page and save it
 
@@ -76,9 +79,10 @@ As an organization, you get **$5 in free credits**, enough to correct approximat
 
 </div>
 
-### 3. Start Writing!
+### 3. Start Writing
 
 You're all set! Now you can:
+
 - Copy and paste the text you want to correct
 - Add custom instructions if needed
 - Send it to ChatGPT for correction!
@@ -118,7 +122,7 @@ You're all set! Now you can:
 - **Auto Text Detection** - Automatically detects and fills highlighted text from any webpage
 - **Usage Analytics** - Track your writing improvements over time
 - **Theme Customization** - Light/dark mode and custom color schemes
-- **GPT Model Selection** - Choose the AI model you want to use (GPT-4, GPT-3.5, etc.) 
+- **GPT Model Selection** - Choose the AI model you want to use (GPT-4, GPT-3.5, etc.)
 
 ---
 
